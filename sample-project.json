@@ -1,0 +1,23 @@
+{ "projects": [{
+    "name": "Sonny's Vegas Trip",
+    "manager": "Anousone Kaseumsouk",
+    "description": "Sonny want's to experience Las Vegas like a high roller. Help him live his best life in the glitz and glam of Las Vegas Blvd. Please donate to Sonny's Vegas Trip. Dollar bills also accepted.",
+    "fundGoal": 20000,
+    "currentFund": 0,
+    "category": "travel"
+  }, {
+    "name": "Jean's Wardrobe Makeover",
+    "manager": "Jean Jia",
+    "description": "Jean is young and ready to mingle. But she need some new threads. Please donate money to help her shopping trip.  Also accepting donation of Hermes bag or similar brand. Please no JCPenny crap....or Supreme",
+    "fundGoal": 100000,
+    "currentFund": 0,
+    "category": "makeover"
+  }, {
+    "name": "Lan's Gastro Adventure",
+    "manager": "Lan Dam",
+    "description": "Lan is a growing boy who love to eat. He likes to sample different food from all over the world. Please donate to his goal of eating from every corner of the world.",
+    "fundGoal": 500000,
+    "currentFund": 0,
+    "category": "adventure"
+  }]
+}

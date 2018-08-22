@@ -1,3 +1,18 @@
-<p>
-  project-list works!
-</p>
+<h2>Marketplace</h2>
+
+<div *ngFor="let project of projects | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(project)"><em>{{project.name}}</em> --by {{project.manager}}</h3>
+    <div *ngIf="currentRoute === '/admin'">
+      {{project.description}}
+      <br>
+      Funding Goal: ${{project.fundGoal}}
+      <br>
+      Current fund: ${{project.currentFund}}
+      <br>
+      Category: {{project.category}}
+      <!-- <hr>
+      <app-edit-project [selectedAlbum]="project"></app-edit-project> -->
+    </div>
+  </div>
+</div>

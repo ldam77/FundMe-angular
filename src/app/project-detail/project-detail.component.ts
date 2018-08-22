@@ -29,5 +29,4 @@ export class ProjectDetailComponent implements OnInit {
                                          dataLastEmittedFromObserver.category)
    })
   }
-
 }

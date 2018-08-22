@@ -1,6 +1,12 @@
 <h2>Marketplace</h2>
+<select (change)="onChange($event.target.value)">
+  <option value="allProjects" selected="selected">All Projects</option>
+  <option value="travel">Category Travel</option>
+  <option value="makeover">Category Makeover</option>
+  <option value="adventure">Category Adventure</option>
+</select>
 
-<div *ngFor="let project of projects | async" class="panel panel-default">
+<div *ngFor="let project of projects | async | category:filterByCategory" class="panel panel-default">
   <div class="panel-body">
     <h3 (click)="goToDetailPage(project)"><em>{{project.name}}</em> --by {{project.manager}}</h3>
     <div *ngIf="currentRoute === '/admin'">
